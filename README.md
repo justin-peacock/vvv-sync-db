@@ -31,4 +31,4 @@ Sync [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV)
 ## Process
 
 1. Machine 1 (with vagrant running) - run `vagrant halt`
-1. Machine 2 - run `vagrant up` - this will import the db's that are synced.
+1. Machine 2 - run `vagrant up` - this will import the db's that are synced. (Note: If you've added a new site, make sure you run vagrant up --provision on the other machine.)
